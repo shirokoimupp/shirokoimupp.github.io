@@ -1,8 +1,8 @@
 {
-  "framework": "laravel",
   "buildCommand": "npm install && npm run build",
   "outputDirectory": "public",
   "env": {
-    "APP_ENV": "production"
+    "APP_ENV": "production",
+    "APP_DEBUG": "false"
   }
 }
