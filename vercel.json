@@ -1,13 +1,8 @@
 {
   "framework": "laravel",
-  "buildCommand": "npm run build",
+  "buildCommand": "npm install && npm run build",
   "outputDirectory": "public",
   "env": {
     "APP_ENV": "production"
-  },
-  "scripts": {
-    "dev": "vite",
-    "build": "vite build",
-    "preview": "vite preview"
   }
 }
